@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script language="JavaScript" src="8.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/estilo.css" />
+</head>
+<body>
+
+
+	Nome:<input id="nome" type="text" ><br>
+	Pessoa:
+	Física:<input id="pessoaFisica" type="radio"  onclick="validar()" >
+	Jurídica:<input id="pessoa" type="radio"  onclick="validar()">
+	<div id="Fisica" style="display: none;"></div>
+		CPF:<input id="cpf" type="text" >
+	Data de nascimento:<input id="dataNascimento" type="text"  onkeypress="cep()">
+	</div>
+	<br>
+	<div id="Juridica" style="display: none;">
+		CNPJ:<input id="cnpj" type="text">
+		
+	</div>
+	Endereço:<input id="endereco" type="text" ><br>
+	Cep:<input id="cep" type="text"  onkeypress="cep()"><br>
+	Telefone:<input id="telefone" type="text" ><br>
+	Email:<input id="email" type="text" ><br>
+
+</body>
+
+
+</html>

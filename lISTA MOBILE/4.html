@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Exercício 4</title>
+		<meta charset="utf-8" />
+		<script type="text/javascript">
+			function Mudarestado(muda) {
+		        var display = document.getElementById(muda).style.display;
+		        if(display == "none"){
+           		 document.getElementById(muda).style.display = 'block';
+		        }
+        		else{
+            		document.getElementById(muda).style.display = 'none';
+            	}
+    		}
+		</script>
+	</head>
+	<body>
+		<p id="paragrafo">Tão natural quanto a luz do dia
+			Mas que preguiça boa
+			Me deixa aqui à toa
+			Hoje ninguém vai estragar meu dia
+			Só vou gastar energia pra beijar sua boca
+			
+			Fica comigo então
+			Não me abandona, não
+			Alguém te perguntou como é que foi seu dia?
+			Uma palavra amiga, uma notícia boa
+			Isso faz falta no dia a dia
+			A gente nunca sabe quem são essas pessoas
+			
+			Eu só queria te lembrar
+			Que aquele tempo eu não podia fazer mais por nós
+			Eu estava errado e você não tem que me perdoar.</p>
+		<button type="button" onclick="Mudarestado('paragrafo')">Ocultar</button>
+	</body>
+</html>
